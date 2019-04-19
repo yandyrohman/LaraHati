@@ -1,0 +1,4 @@
+# Redirect all route to _core/route.php
+
+RewriteEngine on
+RewriteRule [\w\W]* _core/route.php
